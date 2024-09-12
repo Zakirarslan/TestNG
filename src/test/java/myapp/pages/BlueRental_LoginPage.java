@@ -29,5 +29,11 @@ public class BlueRental_LoginPage {
     @FindBy (xpath = "//div[contains(text(),'User with email fake@bluerentalcars.com not found')]")
     public WebElement unsuccessfullogin;
 
+    @FindBy (xpath ="//div[contains(text(), 'Bad credentials')]")
+    public WebElement badCredentialsMessage;
+
+    @FindBy (xpath = "(//div[@class='invalid-feedback'])[1]")
+    public WebElement EmailErrorMessage;
+
 
 }

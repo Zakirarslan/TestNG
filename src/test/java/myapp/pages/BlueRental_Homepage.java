@@ -26,4 +26,8 @@ public class BlueRental_Homepage {
     @FindBy(xpath = "//button[text()='OK']")
     public WebElement okOption;
 
+    @FindBy (tagName = "select")
+    public WebElement selectCarDropdown;
+
+
 }
