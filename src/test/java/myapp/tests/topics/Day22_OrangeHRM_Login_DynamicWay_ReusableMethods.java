@@ -16,7 +16,7 @@ public class Day22_OrangeHRM_Login_DynamicWay_ReusableMethods {
     // Then verify the login is successful
     // And logout the application
     // Then verify the logout is successful
-    @Test
+    @Test (groups = "minor_regression_group")
     public void loginTestDynamic_ReusableMethods(){
 
         // Given user is the application login page

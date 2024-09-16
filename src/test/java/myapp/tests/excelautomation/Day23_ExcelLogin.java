@@ -19,7 +19,7 @@ public class Day23_ExcelLogin {
        // And search for the first name
        // Then verify the name field contains first name
 
-    @Test @Ignore
+    @Test (groups = "minor_regression_group")
     public void loginTest(){
         // When user go to https://editor.datatables.net/
         Driver.getDriver().get("https://editor.datatables.net/");

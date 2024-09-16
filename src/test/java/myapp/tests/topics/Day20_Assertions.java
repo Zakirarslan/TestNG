@@ -25,7 +25,7 @@ public class Day20_Assertions {
         System.out.println("Line 14");
     }
 
-    @Test
+    @Test  (groups = "minor_regression_group")
     public void javaAssert() {
         /*
         Ths comes from Java library. It works the same way as HARD ASSERTION
