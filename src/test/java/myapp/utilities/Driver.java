@@ -59,7 +59,7 @@ public class Driver {
                 driver.set(ThreadGuard.protect(new ChromeDriver(options)));
                 break;
         }
-
+//git add
         driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.get().manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
         driver.get().manage().window().maximize();
