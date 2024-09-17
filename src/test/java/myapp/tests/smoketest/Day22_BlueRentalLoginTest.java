@@ -55,6 +55,7 @@ public class Day22_BlueRentalLoginTest {
 
         //Verify logout is successful
         BrowserUtils.verifyElementDisplayed(blueRentalHomepage.userIcon);
+        Driver.closeDriver();
 
 
 

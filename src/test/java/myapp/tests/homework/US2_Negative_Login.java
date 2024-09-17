@@ -5,7 +5,6 @@ import myapp.pages.BlueRental_LoginPage;
 import myapp.utilities.BrowserUtils;
 import myapp.utilities.ConfigReader;
 import myapp.utilities.Driver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class US2_Negative_Login {

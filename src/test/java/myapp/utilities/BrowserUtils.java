@@ -49,7 +49,7 @@ public class BrowserUtils {
     }
     //    RADIO BUTTON
     public void radioClickByIndex(int index){
-        int numOfRadio =Driver.getDriver().findElements(By.xpath("//input[@type='radio']")).size();
+        int numOfRadio = Driver.getDriver().findElements(By.xpath("//input[@type='radio']")).size();
         for (int i=0;i<numOfRadio;i++){
             if (!Driver.getDriver().findElements(By.xpath("//input[@type='radio']")).get(index).isSelected()) {
                 Driver.getDriver().findElements(By.xpath("//input[@type='radio']")).get(index).click();
@@ -58,7 +58,7 @@ public class BrowserUtils {
     }
     //    CHECKBOX BUTTON
     public void checkboxClickByIndex(int index){
-        int numOfRadio =Driver.getDriver().findElements(By.xpath("//input[@type='checkbox']")).size();
+        int numOfRadio = Driver.getDriver().findElements(By.xpath("//input[@type='checkbox']")).size();
         try{
             for (int i=0;i<numOfRadio;i++){
                 if (!Driver.getDriver().findElements(By.xpath("//input[@type='checkbox']")).get(index).isSelected()) {

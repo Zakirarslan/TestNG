@@ -3,7 +3,6 @@ package myapp.tests.excelautomation;
 import myapp.pages.DatatablesPage;
 import myapp.utilities.*;
 import org.testng.Assert;
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import java.util.List;

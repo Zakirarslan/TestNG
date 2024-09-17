@@ -3,7 +3,6 @@ package myapp.tests.topics;
 import myapp.pages.OrangeHRM_DashboardPage;
 import myapp.pages.OrangeHRM_LoginPage;
 import myapp.utilities.Driver;
-import myapp.utilities.WaitUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

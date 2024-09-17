@@ -5,7 +5,6 @@ import myapp.pages.OrangeHRM_LoginPage;
 import myapp.utilities.BrowserUtils;
 import myapp.utilities.ConfigReader;
 import myapp.utilities.Driver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Day22_OrangeHRM_Login_DynamicWay_ReusableMethods {
